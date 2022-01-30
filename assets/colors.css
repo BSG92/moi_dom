@@ -1,0 +1,16 @@
+.bg-yellow {
+    background-color: #ffc925;
+    /* height: 500px; */
+}
+.bg-text-white-big {
+    color: white;
+    font-size: x-large;
+}
+
+.bg-white {
+    background-color: white;
+    /* height: 500px; */
+}
+.text-yellow{
+    color: #ffc925;
+}
