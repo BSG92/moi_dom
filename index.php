@@ -83,16 +83,23 @@ $DIR="/var/www/html";
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
                 <div class="container text-sub-title" id="about">
-                    <h1>Who we are...</h1>
+                    <h1>О нас</h1>
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
-                    <p class="sub-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas pharetra convallis posuere morbi leo urna. Diam quis enim lobortis scelerisque fermentum dui faucibus. Lectus urna duis convallis convallis tellus id interdum velit. Congue nisi vitae suscipit tellus mauris a diam maecenas. Eget sit amet tellus cras adipiscing. Fringilla urna porttitor rhoncus dolor. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Arcu non sodales neque sodales ut etiam.
+                    <p class="lead sub-text">
+                    Это официальный сайт двух строительных фирм - ИП Арсенин и ИП Давыдов, созданный нами для того, чтобы вам было легче принять решение в выборе услуг по внутренней отделке квартир, домов, коттеджей, пентхаусов, многоквартирных домов, коммерческих помещений, офисов, детских дошкольных, школьных , а так же других образовательных и социальных учреждений. 
                     </p>
-                    <p class="sub-text">
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas pharetra convallis posuere morbi leo urna. Diam quis enim lobortis scelerisque fermentum dui faucibus. Lectus urna duis convallis convallis tellus id interdum velit. Congue nisi vitae suscipit tellus mauris a diam maecenas. Eget sit amet tellus cras adipiscing. Fringilla urna porttitor rhoncus dolor. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Arcu non sodales neque sodales ut etiam.
+                    <p class="lead">
+                    Сделав свой выбор в нашу пользу, вы обеспечите себя гарантом качества и надежности, а самое главное - оставите внутри себя прекрасные чувства и эмоции по итогу выполненной работы. 
                     </p>
+                    <p class="lead">Заключив договор , вам не придётся больше переживать о 
+предстоящем ремонте, дизайне отделки, графике работ и закупке материалов.
+                    </p>
+                    <p class="lead">Мы максимально сэкономим ваше время, финансы и честно ответим на все ваши вопросы. </p>
+                    <p class="lead">Бесплатную консультацию и фиксированную стоимость  работ вы можете получить, просто позвонив нам или написав  в социальных сетях.</p>
+                    <p class="lead">Достаточно будет одной встречи, для обсуждения деталей и построения плана работ.</p>
+                    <p class="lead">Вкус вашего комфортного пребывания в доме - то, к чему мы стремимся.</p>
                 </div>
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
@@ -181,9 +188,9 @@ $DIR="/var/www/html";
                                     <div class="hori-spacer"></div>
                                     <div class="hori-spacer"></div>
                                     <div class="text-thick">Follow Us On</div>
-                                    <a href="https://instagram.com" target="_blank" class="bi bi-instagram text-dark"
+                                    <a href="https://www.instagram.com/my_homebuilder/" target="_blank" class="bi bi-instagram text-dark"
                                     data-bs-toggle="tooltip" data-bs-placement="top"
-                                    title="@username"></a>
+                                    title="@my_homebuilder"></a>
                                     &nbsp;
                                     <a href="https://facebook.com" target="_blank" class="bi bi-facebook text-dark"
                                     data-bs-toggle="tooltip" data-bs-placement="top"
