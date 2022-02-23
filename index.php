@@ -50,10 +50,13 @@ $DIR="/var/www/html";
                             <a href="#home" class="nav-link">Главный</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#projects" class="nav-link">Проекты</a>
+                            <a href="#about" class="nav-link">О нас</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">О нас</a>
+                            <a href="#services" class="nav-link">услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Проекты</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contacts" class="nav-link">Контакты</a>
@@ -65,7 +68,7 @@ $DIR="/var/www/html";
                 </div>
             </div>            
         </nav>
-        <div class="welcome-slider">
+        <div id="home" class="welcome-slider">
             <img src="assets/images/welcome_slider/img-int-276724.jpg" alt="">
             <img src="assets/images/welcome_slider/img-int-584399.jpg" alt="">
             <img src="assets/images/welcome_slider/img-int-ksenia-chernaya-3952034.jpg" alt="">
@@ -77,12 +80,12 @@ $DIR="/var/www/html";
         <!-- <div class="hori-spacer"></div> -->
 
         <!-- Who we are -->
-        <section>
+        <section id="about">
             <section class="bg-white">
-                <div class="hori-spacer bg-"></div>
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
-                <div class="container text-sub-title" id="about">
+                <div class="hori-spacer"></div>
+                <div class="container text-sub-title">
                     <h1>О нас</h1>
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
@@ -105,14 +108,12 @@ $DIR="/var/www/html";
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
             </section>
-            <img id="parallax-image" src="/assets/images/bg-parallax.jpg" alt="parallax-background">
-            
         </section>
 
         <!-- What we do? boxes -->
-        <section class="p-5">
+        <section class="p-5" id="services">
             <div class="container">
-                <h1>What we do?</h1>
+                <h1>Наши услуги</h1>
                 <div class="row text-center">
                     <div class="col-md text-sub-title">
                     <div class="card text-dark">
@@ -152,7 +153,7 @@ $DIR="/var/www/html";
         </section>
 
         <!-- Contact Us -->
-        <section class="bg-yellow">
+        <section class="bg-black text-white">
             <div class="container" id="contacts">
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
@@ -164,39 +165,30 @@ $DIR="/var/www/html";
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
-                <div class="hori-spacer"></div>
-                <div class="hori-spacer"></div>
-                <div class="hori-spacer"></div>
-                <div class="hori-spacer"></div>
-                <div class="hori-spacer"></div>
-
+                
                 <div class="row">
                     <div class="col-md">
-                        <div class="bg-yellow card text-dark">
+                        <div class="bi bi-phone-fill">&nbsp; +7 (123) 456 789</div>
+                        <div class="hori-spacer"></div>
+                        <div class="bi bi-envelope-fill">&nbsp; query@moidom.ru</div>
+                        <div class="hori-spacer"></div>
+                        <div class="bi bi-whatsapp">&nbsp; +7 (123) 456 789</div>
+                        
+                        <div class="bg-dark card mt-3">
                             <div class="card-body">
-                                <div class="card-text">
-                                    <div class="bi bi-phone-fill">&nbsp; +7 (123) 456 789</div>
+                                <div class="card-text text-white text-center">
                                     <div class="hori-spacer"></div>
-                                    <div class="bi bi-envelope-fill">&nbsp; query@moidom.ru</div>
-                                    <div class="hori-spacer"></div>
-                                    <div class="bi bi-whatsapp">&nbsp; +7 (123) 456 789</div>
 
-                                    <div class="hori-spacer"></div>
-                                    <div class="hori-spacer"></div>
-                                    <div class="hori-spacer"></div>
-                                    <div class="hori-spacer"></div>
-                                    <div class="hori-spacer"></div>
-                                    <div class="hori-spacer"></div>
                                     <div class="text-thick">Follow Us On</div>
-                                    <a href="https://www.instagram.com/my_homebuilder/" target="_blank" class="bi bi-instagram text-dark"
+                                    <div class="hori-spacer"></div>
+                                    <div class="hori-spacer"></div>
+                                    <a href="https://www.instagram.com/my_homebuilder/" target="_blank" class="bi bi-instagram text-yellow"
                                     data-bs-toggle="tooltip" data-bs-placement="top"
                                     title="@my_homebuilder"></a>
                                     &nbsp;
-                                    <a href="https://facebook.com" target="_blank" class="bi bi-facebook text-dark"
+                                    <a href="https://facebook.com" target="_blank" class="bi bi-facebook text-yellow"
                                     data-bs-toggle="tooltip" data-bs-placement="top"
                                     title="@username"></a>
-                                    
-
                                 </div>
                             </div>
                         </div>
