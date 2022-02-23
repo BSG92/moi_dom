@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <?php
+
+require_once '../app/require.php';
+
 // Error reporting ***TURN OFF ON PRODUCTION***
-/*ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-/etc/php/.../php.ini
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+// /etc/php/.../php.ini
 //************************************ */
 $DIR="/var/www/html";
 ?>
@@ -18,7 +21,7 @@ $DIR="/var/www/html";
         
 <!-- INCLUDING ALL bootstrap css files -->
     <?php
-        // $cssfiles = glob("bootstrap-dist/css/"."*.css");
+        // $cssfiles = glob("assets/bootstrap-dist/css/"."*.css");
         // foreach($cssfiles as $cssfile){
         //     echo "<link rel=\"stylesheet\" href=$cssfile" . ">";
         // }
@@ -199,7 +202,7 @@ $DIR="/var/www/html";
 
 <!-- INCLUDING ALL bootstrap js files -->
 <?php
-    // $jsfiles = glob("bootstrap-dist/js/"."*.js");
+    // $jsfiles = glob("assets/bootstrap-dist/js/"."*.js");
     // foreach($jsfiles as $jsfile){
     //    // echo " src=$jsfile" .basename($jsfile)."</script>";
     //    echo "<script src=$jsfile"."></script>";
