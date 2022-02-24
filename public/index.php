@@ -18,6 +18,8 @@ $DIR="/var/www/html";
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- this base fixes relative url errors -->
+        <base href="http://localhost/moi_dom/" target="_blank">
         
 <!-- INCLUDING ALL bootstrap css files -->
     <?php
