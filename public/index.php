@@ -34,6 +34,8 @@ $DIR="/var/www/html";
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="assets/slick.min.css">
         <!-- Custom Theme Style & Color pallette -->
         <link rel="stylesheet" type="text/css" href="assets/style.css">
