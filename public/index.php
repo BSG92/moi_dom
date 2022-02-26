@@ -54,19 +54,19 @@ $DIR="/var/www/html";
                 <div class="collapse navbar-collapse" id="navmenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#home" class="nav-link">Главный</a>
+                            <a href="#home" class="nav-link" target="_self" rel="noreferrer">Главный</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">О нас</a>
+                            <a href="#about" class="nav-link" target="_self" rel="noreferrer">О нас</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="nav-link">услуги</a>
+                            <a href="#services" class="nav-link" target="_self" rel="noreferrer">услуги</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#projects" class="nav-link">Проекты</a>
+                            <a href="#projects" class="nav-link" target="_self" rel="noreferrer">Проекты</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contacts" class="nav-link">Контакты</a>
+                            <a href="#contacts" class="nav-link" target="_self" rel="noreferrer">Контакты</a>
                         </li>
                     </ul>
                     <img style="width:20px; height:20px" src="assets/images/ru.svg" alt="Russian">
