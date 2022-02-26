@@ -40,7 +40,7 @@ $DIR="/var/www/html";
         <!-- Custom Theme Style & Color pallette -->
         <link rel="stylesheet" type="text/css" href="assets/style.css">
         
-        <title>Construction Site</title>
+        <title><?php echo SITENAME; ?></title>
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
