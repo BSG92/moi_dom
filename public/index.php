@@ -9,7 +9,7 @@ require_once '../app/require.php';
 // error_reporting(E_ALL);
 // /etc/php/.../php.ini
 //************************************ */
-$DIR="/var/www/html";
+
 ?>
 
 <html lang="en">
@@ -19,7 +19,7 @@ $DIR="/var/www/html";
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- this base fixes relative url errors -->
-        <base href="http://localhost/moi_dom/" target="_blank">
+        <base href="http://localhost/moi_dom/" target="_self">
         
 <!-- INCLUDING ALL bootstrap css files -->
     <?php
@@ -54,7 +54,7 @@ $DIR="/var/www/html";
                 <div class="collapse navbar-collapse" id="navmenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#home" class="nav-link" target="_self" rel="noreferrer">Главный</a>
+                            <a href="#home" class="nav-link" >Главный</a>
                         </li>
                         <li class="nav-item">
                             <a href="#about" class="nav-link" target="_self" rel="noreferrer">О нас</a>

@@ -1,4 +1,6 @@
 <?php
-    echo $data['name'];
-    echo APPROOT;
+    // echo $data['name'];
+    // echo APPROOT;
+
+    var_dump($data);
 ?>
