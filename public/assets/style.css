@@ -1,6 +1,6 @@
 @import url("colors.css");
 
-div.welcome-slider > button {
+div.welcome-slider > button, div.reviews-slider > button {
     visibility: hidden;
 }
 

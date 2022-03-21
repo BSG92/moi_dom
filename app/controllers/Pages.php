@@ -7,7 +7,7 @@
 
         public function index()
         {
-            $reviews = $this->reviewModel->getReviews();
+            $reviews = $this->reviewModel->getLatestReviews();
             // add a path to the index file and send some data along with it
             $data = [
                 'title' => 'Home Page',
