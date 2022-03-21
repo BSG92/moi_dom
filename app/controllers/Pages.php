@@ -15,9 +15,5 @@
             ];
             $this->view('index', $data); // loads the index.php file inside the 'views' directory
         }
-        public function about()
-        {
-            echo "About Page";
-        }
     }
 ?>
