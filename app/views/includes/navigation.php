@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-        <a href="#" class="bi bi-house-fill navbar-brand"
-        style="font-style: bold; font-family: 'Varela Round', sans-serif;">Мой Дом</a>
+        <span class="bi bi-house-fill navbar-brand"
+        style="font-style: bold; font-family: 'Varela Round', sans-serif; color: #ffc107;">Мой Дом</span>
         <button
         class="navbar-toggler" type="button"
         data-bs-toggle="collapse"

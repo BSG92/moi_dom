@@ -85,7 +85,7 @@
         <!-- Customer Reviews -->
         <section id="reviews" style="margin-bottom: 1em;">
             <div class="container">
-                <h1>Что говорят наши клиенты...</h1>
+                <h1>Наши клиенты говорят...</h1>
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
 
@@ -137,7 +137,7 @@
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
 
-                <h1>Contact Us</h1>
+                <h1>Свяжитесь с нами</h1>
 
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
@@ -146,11 +146,11 @@
                 
                 <div class="row">
                     <div class="col-md">
-                        <div><span class="bi bi-phone-fill text-yellow"></span>&nbsp; +7 (123) 456 789</div>
+                        <div><span class="bi bi-phone-fill text-yellow"></span>&nbsp; 89 681 881 441</div>
                         <div class="hori-spacer"></div>
-                        <div><span class="bi bi-envelope-fill text-yellow"></span>&nbsp; query@moidom.ru</div>
+                        <div><span class="bi bi-whatsapp text-yellow"></span>&nbsp; 89 681 881 441</div>
                         <div class="hori-spacer"></div>
-                        <div><span class="bi bi-whatsapp text-yellow"></span>&nbsp; +7 (123) 456 789</div>
+                        <div><span class="bi bi-envelope-fill text-yellow"></span>&nbsp; email@gmail.com</div>
                         
                         <div class="bg-dark card mt-3">
                             <div class="card-body">
@@ -160,13 +160,18 @@
                                     <div class="text-thick">Follow Us On</div>
                                     <div class="hori-spacer"></div>
                                     <div class="hori-spacer"></div>
-                                    <a href="https://www.instagram.com/my_homebuilder/" target="_blank" class="bi bi-instagram text-yellow"
-                                    data-bs-toggle="tooltip" data-bs-placement="top"
-                                    title="@my_homebuilder"></a>
-                                    &nbsp;
-                                    <a href="https://facebook.com" target="_blank" class="bi bi-facebook text-yellow"
-                                    data-bs-toggle="tooltip" data-bs-placement="top"
-                                    title="@username"></a>
+                                    <span style="display:flex; justify-content: center;">
+                                        <a href="https://www.instagram.com/my_homebuilder/" target="_blank" class="bi bi-instagram text-yellow"
+                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="@my_homebuilder"></a>
+                                        &nbsp;
+
+                                        <a href="https://vk.com/myhomespb78" target="_blank" class="text-yellow"
+                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="@myhomespb78"><img src="assets/images/logos/vk.svg" 
+                                        style="width: 20px; height: 20px;" alt="myhomespb78"></a>
+                                    </span>
+                                        
                                 </div>
                             </div>
                         </div>
@@ -184,5 +189,4 @@
     // }
 ?>
 
-<!-- Review Cards START -->
 <!-- Content END -->
