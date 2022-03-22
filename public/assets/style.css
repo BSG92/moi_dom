@@ -112,6 +112,11 @@ div.card-body:scroll {
     max-width: 100%;
 }
 
+iframe{
+    width: 600px;
+    height: 300px;
+}
+
 /* on screen sizes less than 700px in width */
 @media (max-width:700px){
     .nav-link:hover {
@@ -124,6 +129,10 @@ div.card-body:scroll {
     }
     #unimportant{
         display: none;
+    }
+    iframe{
+        width: 380px;
+        height: 300px;
     }
 }
 

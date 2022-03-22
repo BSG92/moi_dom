@@ -50,9 +50,9 @@
                         <div class="card-body">
                             <img src="assets/images/construction-consultant.jpg" alt="Consultation">
                             <div class="hori-spacer"></div>
-                            <h5 class="card-title">Consultation</h5>
+                            <h5 class="card-title">Консультация</h5>
                             <p class="card-text">Sample text</p>
-                            <button class="btn btn-warning">Know more</button>
+                            <button class="btn btn-warning">Узнать больше</button>
                         </div>
                     </div>    
                     </div>
@@ -61,9 +61,9 @@
                             <div class="card-body">
                                 <img src="assets/images/designing.jpg" alt="Designing">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Designing & Planning</h5>
+                                <h5 class="card-title">Проектирование и Планирование</h5>
                                 <p class="card-text">Sample text</p>
-                                <button class="btn btn-warning">Know more</button>
+                                <button class="btn btn-warning">Узнать больше</button>
                             </div>
                         </div>
                     </div>
@@ -72,9 +72,9 @@
                             <div class="card-body">
                                 <img src="assets/images/reconstruction-services.jpg" alt="Reconstruction">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Reconstruction Services</h5>
+                                <h5 class="card-title">Ремонт</h5>
                                 <p class="card-text">Sample text</p>
-                                <button class="btn btn-warning">Know more</button>
+                                <button class="btn btn-warning">Узнать больше</button>
                             </div>
                         </div>
                     </div>
@@ -150,9 +150,29 @@
                         <div class="hori-spacer"></div>
                         <div><span class="bi bi-whatsapp text-yellow"></span>&nbsp; 89 681 881 441</div>
                         <div class="hori-spacer"></div>
-                        <div><span class="bi bi-envelope-fill text-yellow"></span>&nbsp; email@gmail.com</div>
-                        
-                        <div class="bg-dark card mt-3">
+                        <div><span class="bi bi-envelope-fill text-yellow"></span>&nbsp; vovadavydov522@gmail.com</div>
+
+                        <div class="row mt-5">
+                            <div>
+                                <span class="bi bi-house text-yellow" style="font-style: bold; font-family: 'Varela Round', sans-serif;"></span>
+                                &nbsp;
+                                <div>Ленсоветовский 23,</div>
+                                   <div>посёлок Шушары,</div>
+                                    <div>Санкт-Петербург,</div>
+                                    <div>Россия</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <!-- <iframe src="https://yandex.ru/maps/org/zhk_dobrynya/133858123731/?ll=30.471598%2C59.756596&z=17" frameborder="0"
+                            loading="lazy" width="600px" height="500px"></iframe> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2009.5030247582386!2d30.469655123598255!3d59.75770693822565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469627bb80153069%3A0x94031ec1603a078c!2z0JbQmiDQlNC-0LHRgNGL0L3Rjw!5e0!3m2!1sru!2sru!4v1647934704499!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <a href="https://yandex.ru/maps/org/zhk_dobrynya/133858123731/?ll=30.471598%2C59.756596&z=17"
+                                class="text-yellow" style="text-decoration: none;" target="_blank" >Открыть в Яндекс картах</a>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="bg-dark card mt-3">
                             <div class="card-body">
                                 <div class="card-text text-white text-center">
                                     <div class="hori-spacer"></div>
@@ -175,7 +195,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
