@@ -12,6 +12,7 @@ Prerequisites
 
  -------------------------------
  Examples
+ 
     1. Add the following to /etc/apache2/apache.conf
         <Directory /var/www/>
             Options Indexes FollowSymLinks
@@ -21,7 +22,7 @@ Prerequisites
     
     2. Add the following to /etc/apache2/conf-available/moi-dom.conf
     This will allow .htaccess file modifications
-    
+
         DocumentRoot /var/www/html/moi-dom
         <Directory "/var/www/html/moi-dom">
             AllowOverride All
