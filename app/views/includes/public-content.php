@@ -177,7 +177,7 @@
                                 <div class="card-text text-white text-center">
                                     <div class="hori-spacer"></div>
 
-                                    <div class="text-thick">Follow Us On</div>
+                                    <div class="text-thick">Присоединяйтесь к нам</div>
                                     <div class="hori-spacer"></div>
                                     <div class="hori-spacer"></div>
                                     <span style="display:flex; justify-content: center;">

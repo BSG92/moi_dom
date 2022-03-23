@@ -15,6 +15,12 @@ div.welcome-slider > button, div.reviews-slider > button {
     /* z-index: 1;  */
 /*} */
 
+#navmenu > ul > li > a {
+    font-size: large;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+}
+
 #navmenu > ul > li > a:hover{
     color: #ffc107;
     font-size: 1.5em;
@@ -49,10 +55,10 @@ div.hori-spacer {
     font-weight: bold;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
     font-weight: bolder;
     color: darkorange;
-}
+} */
 
 div.text-sub-title{
     font-family: 'Varela Round', sans-serif;
@@ -119,10 +125,10 @@ iframe{
 
 /* on screen sizes less than 700px in width */
 @media (max-width:700px){
-    .nav-link:hover {
+    /* .nav-link:hover {
         font-weight: bold;
         color: darkorange;
-    }
+    } */
     h1.intro{
         position: fixed;
         top: 100px;

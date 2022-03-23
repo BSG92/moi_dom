@@ -7,12 +7,12 @@ MVC architecture
 Prerequisites
 1. Enable .htaccess file modifications in the virtualhost's <Directory> section
  
- 2.enable mod_rewrite
+2. Enable mod_rewrite
  a2enmod rewrite
 
  -------------------------------
  Examples
- 
+
     1. Add the following to /etc/apache2/apache.conf
         <Directory /var/www/>
             Options Indexes FollowSymLinks
