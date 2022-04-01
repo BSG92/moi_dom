@@ -7,6 +7,6 @@
 
     define('APPROOT', dirname(dirname(__FILE__)));
     define('URLROOT', 'http://localhost/moi_dom'); // use this for local a tags and button tags
-    define('SITENAME', 'Мой Дом');
+    define('SITENAME', 'My Home SPB');
 
 ?>

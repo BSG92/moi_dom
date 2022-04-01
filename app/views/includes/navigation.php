@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <span class="bi bi-house-fill navbar-brand"
-        style="font-style: bold; font-family: 'Varela Round', sans-serif; color: #ffc107;">Мой Дом</span>
+        style="font-style: bold; font-family: 'Varela Round', sans-serif; color: #ffc107;"><?php echo SITENAME; ?></span>
         <button
         class="navbar-toggler" type="button"
         data-bs-toggle="collapse"

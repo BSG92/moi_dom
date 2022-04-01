@@ -21,7 +21,7 @@
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
                     <p class="lead sub-text">
-                    Это официальный сайт строительных фирм - ИП Арсенин, созданный нами для того, чтобы вам было легче принять решение в выборе услуг по внутренней отделке квартир, домов, коттеджей, пентхаусов, многоквартирных домов, коммерческих помещений, офисов, детских дошкольных, школьных , а так же других образовательных и социальных учреждений. 
+                    Это официальный сайт строительной фирмы - ИП Арсенин, созданный нами для того, чтобы вам было легче принять решение в выборе услуг по внутренней отделке квартир, домов, коттеджей, пентхаусов, многоквартирных домов, коммерческих помещений, офисов, детских дошкольных, школьных , а так же других образовательных и социальных учреждений. 
                     </p>
                     <p class="lead">
                     Сделав свой выбор в нашу пользу, вы обеспечите себя гарантом качества и надежности, а самое главное - оставите внутри себя прекрасные чувства и эмоции по итогу выполненной работы. 
@@ -48,10 +48,10 @@
                     <div class="col-md text-sub-title">
                     <div class="card text-dark">
                         <div class="card-body">
-                            <img src="assets/images/construction-consultant.jpg" alt="Consultation">
+                            <img src="assets/images/reconstruction-services.jpg" alt="Construction">
                             <div class="hori-spacer"></div>
-                            <h5 class="card-title">Консультация</h5>
-                            <p class="card-text">Sample text</p>
+                            <h5 class="card-title">Строительно–отделочные работы </h5>
+                            <!-- <p class="card-text">Sample text</p> -->
                             <button class="btn btn-warning">Узнать больше</button>
                         </div>
                     </div>    
@@ -59,10 +59,10 @@
                     <div class="col-md text-sub-title">
                         <div class="card text-dark">
                             <div class="card-body">
-                                <img src="assets/images/designing.jpg" alt="Designing">
+                                <img src="assets/images/electrical-works.jpg" alt="Electrical">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Проектирование и Планирование</h5>
-                                <p class="card-text">Sample text</p>
+                                <h5 class="card-title">Электромонтажные работы</h5>
+                                <!-- <p class="card-text">Sample text</p> -->
                                 <button class="btn btn-warning">Узнать больше</button>
                             </div>
                         </div>
@@ -70,10 +70,21 @@
                     <div class="col-md text-sub-title">
                         <div class="card text-dark">
                             <div class="card-body">
-                                <img src="assets/images/reconstruction-services.jpg" alt="Reconstruction">
+                                <img src="assets/images/repair-works.webp" alt="Repair">
                                 <div class="hori-spacer"></div>
                                 <h5 class="card-title">Ремонт</h5>
-                                <p class="card-text">Sample text</p>
+                                <!-- <p class="card-text">Sample text</p> -->
+                                <button class="btn btn-warning">Узнать больше</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md text-sub-title">
+                        <div class="card text-dark">
+                            <div class="card-body">
+                                <img src="assets/images/plumbing-works.webp" alt="Plumbing">
+                                <div class="hori-spacer"></div>
+                                <h5 class="card-title">Сантехнические  работы</h5>
+                                <!-- <p class="card-text">Sample text</p> -->
                                 <button class="btn btn-warning">Узнать больше</button>
                             </div>
                         </div>
@@ -146,7 +157,7 @@
                 
                 <div class="row">
                     <div class="col-md">
-                        <div><span class="bi bi-phone-fill text-yellow"></span>&nbsp; 89 681 881 441</div>
+                        <div><span class="bi bi-phone-fill text-yellow"></span>&nbsp; 8-968-188-14-41</div>
                         <div class="hori-spacer"></div>
                         <div><span class="bi bi-whatsapp text-yellow"></span>&nbsp; 89 681 881 441</div>
                         <div class="hori-spacer"></div>
