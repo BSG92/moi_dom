@@ -52,7 +52,7 @@
                             <div class="hori-spacer"></div>
                             <h5 class="card-title">Строительно–отделочные работы </h5>
                             <!-- <p class="card-text">Sample text</p> -->
-                            <button class="btn btn-warning">Узнать больше</button>
+                            <a class="btn btn-warning" href="<?php echo URLROOT; ?>/prices" >Узнать больше</a>
                         </div>
                     </div>    
                     </div>
@@ -70,9 +70,9 @@
                     <div class="col-md text-sub-title">
                         <div class="card text-dark">
                             <div class="card-body">
-                                <img src="assets/images/repair-works.webp" alt="Repair">
+                                <img src="assets/images/plumbing-works.webp" alt="Plumbing">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Ремонт</h5>
+                                <h5 class="card-title">Сантехнические  работы</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
                                 <button class="btn btn-warning">Узнать больше</button>
                             </div>
@@ -81,11 +81,11 @@
                     <div class="col-md text-sub-title">
                         <div class="card text-dark">
                             <div class="card-body">
-                                <img src="assets/images/plumbing-works.webp" alt="Plumbing">
+                                <img src="assets/images/repair-works.webp" alt="Repair">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Сантехнические  работы</h5>
+                                <h5 class="card-title">Ремонт</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <button class="btn btn-warning">Узнать больше</button>
+                                <button class="btn btn-secondary" disabled>Узнать больше</button>
                             </div>
                         </div>
                     </div>

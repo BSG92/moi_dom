@@ -15,5 +15,6 @@
             ];
             $this->view('index', $data); // loads the index.php file inside the 'views' directory
         }
+    
     }
 ?>
