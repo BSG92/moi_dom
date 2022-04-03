@@ -74,7 +74,7 @@
                                 <div class="hori-spacer"></div>
                                 <h5 class="card-title">Сантехнические  работы</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <button class="btn btn-warning">Узнать больше</button>
+                                <a class="btn btn-warning" href="<?php echo URLROOT; ?>/prices/plumbing" >Узнать больше</a>
                             </div>
                         </div>
                     </div>

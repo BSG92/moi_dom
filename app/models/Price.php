@@ -21,5 +21,13 @@
             return $this->db->resultSet();
 
         }
+
+        public function getPlumbingWorksPrice()
+        {
+            $this->db->query("SELECT * FROM `prices_plumbing-works`");
+
+            return $this->db->resultSet();
+
+        }
     }
 ?>

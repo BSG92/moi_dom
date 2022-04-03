@@ -32,6 +32,20 @@
 
             $this->view('prices_electrical-works', $data);
         }
+
+        public function plumbing()
+        {
+            // URL /prices/plumbing
+
+            $pricesPlumbingWorks = $this->pricesModel->getPlumbingWorksPrice();
+
+            $data = [
+                'heading' => "Сантехнические  работы",
+                'prices' => $pricesPlumbingWorks
+            ];
+
+            $this->view('prices_plumbing-works', $data);
+        }
     }
 
 ?>
