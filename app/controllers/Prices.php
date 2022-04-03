@@ -12,7 +12,8 @@
             $pricesConstructionWorks = $this->pricesModel->getConstructionWorksPrice();
 
             $data = [
-                'pricesConstructionWorks' => $pricesConstructionWorks
+                'heading' => "Строительно–отделочные работы",
+                'prices' => $pricesConstructionWorks
             ];
 
             $this->view("prices_construction-works", $data);
@@ -25,7 +26,8 @@
             $pricesElectricalWorks = $this->pricesModel->getElectricalWorksPrice();
 
             $data = [
-                'pricesElectricalWorks' => $pricesElectricalWorks
+                'heading' => "Электромонтажные работы",
+                'prices' => $pricesElectricalWorks
             ];
 
             $this->view('prices_electrical-works', $data);
