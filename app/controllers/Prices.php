@@ -3,13 +3,13 @@
     class Prices extends Controller{
         public function __construct()
         {
+            $this->pricesModel = $this->model('Price');
         }
         
         // General Construction works
         public function index()
         {
-            $this->pricesConstructionWorksModel = $this->model('PricesConstructionWorks');
-            $pricesConstructionWorks = $this->pricesConstructionWorksModel->getConstructionWorks();
+            $pricesConstructionWorks = $this->pricesModel->getConstructionWorksPrice();
 
             $data = [
                 'pricesConstructionWorks' => $pricesConstructionWorks
@@ -18,20 +18,17 @@
             $this->view("prices_construction-works", $data);
         }
 
-        public function repair()
+        public function electrical()
         {
-            // URL /pages/prices/
+            // URL /prices/electrical
 
-            // $this->pricesConstructionWorksModel = $this->model('PricesConstructionWorks');
-            // $pricesConstructionWorks = $this->pricesConstructionWorksModel->getConstructionWorks();
+            $pricesElectricalWorks = $this->pricesModel->getElectricalWorksPrice();
 
-            // $data = [
-            //     'pricesConstructionWorks' => $pricesConstructionWorks
-            // ];
+            $data = [
+                'pricesElectricalWorks' => $pricesElectricalWorks
+            ];
 
-            // $this->view('prices_construction-works', $data);
-
-            echo "Cost of Repairs";
+            $this->view('prices_electrical-works', $data);
         }
     }
 
