@@ -14,6 +14,12 @@
 
 <!-- Footer -->
 <?php require APPROOT . '/views/includes/require.js.php'; ?>
+
+<!-- Language Translations -->
+<script src="assets/translations.js"></script>
+<script src="assets/lang.js"></script>
+
+<!-- Welcome slider -->
 <script src="<?php echo URLROOT;?>/public/assets/slick.min.js"></script>
 <!-- Initialize the welcome-slider -->
 <script>

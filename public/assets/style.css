@@ -22,10 +22,25 @@ div.welcome-slider > button, div.reviews-slider > button {
 }
 
 #navmenu > ul > li > a:hover{
-    color: #ffc107;
+    color: var(--yellow);
     font-size: 1.5em;
     transition-property: font-size;
     transition-duration: 0.5s;
+}
+
+#navmenu .dropdown > a {
+    color: var(--yellow);
+}
+#navmenu .dropdown > a:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+#navmenu .dropdown-menu > li {
+    display: flex;
+}
+#navmenu .dropdown-menu > li :hover {
+    background-color: var(--yellow);
+    color: var(--black);
 }
 
 h1.intro {

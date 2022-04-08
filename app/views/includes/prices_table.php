@@ -74,8 +74,8 @@
     table > thead {
         box-shadow: 0 5px 10px var(--gray-400);
         border-style: hidden;
-        background-color: var(--gray-400);
-        color: whitesmoke;
+        background-color: var(--yellow);
+        color: black;
     }
 
     table th {

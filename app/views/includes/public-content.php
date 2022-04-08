@@ -16,7 +16,7 @@
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
                 <div class="container text-sub-title">
-                    <h1>О нас</h1>
+                    <h1 class="lng-title_about_us">О нас</h1>
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
@@ -43,7 +43,7 @@
         <!-- What we do? boxes -->
         <section class="p-5" id="services">
             <div class="container">
-                <h1>Наши услуги</h1>
+                <h1 class="lng-title_services">Наши услуги</h1>
                 <div class="row text-center">
                     <div class="col-md text-sub-title">
                     <div class="card text-dark">
