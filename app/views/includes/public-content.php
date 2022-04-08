@@ -157,9 +157,9 @@
                 
                 <div class="row">
                     <div class="col-md">
-                        <div><span class="bi bi-phone-fill text-yellow"></span>&nbsp; 8-968-188-14-41</div>
-                        <div class="hori-spacer"></div>
                         <div><span class="bi bi-whatsapp text-yellow"></span>&nbsp; 8-921-479-54-35</div>
+                        <div class="hori-spacer"></div>
+                        <div><span class="bi bi-phone-fill text-yellow"></span>&nbsp; 8-968-188-14-41</div>
                         <div class="hori-spacer"></div>
                         <div><span class="bi bi-envelope-fill text-yellow"></span>&nbsp; vovadavydov522@gmail.com</div>
 
