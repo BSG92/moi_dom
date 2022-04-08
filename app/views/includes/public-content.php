@@ -20,19 +20,19 @@
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
                     <div class="hori-spacer"></div>
-                    <p class="lead sub-text">
+                    <p class="lead sub-text lng-about_us_1">
                     Это официальный сайт строительной фирмы - ИП Арсенин, созданный нами для того, чтобы вам было легче принять решение в выборе услуг по внутренней отделке квартир, домов, коттеджей, пентхаусов, многоквартирных домов, коммерческих помещений, офисов, детских дошкольных, школьных , а так же других образовательных и социальных учреждений. 
                     </p>
-                    <p class="lead">
+                    <p class="lead lng-about_us_2">
                     Сделав свой выбор в нашу пользу, вы обеспечите себя гарантом качества и надежности, а самое главное - оставите внутри себя прекрасные чувства и эмоции по итогу выполненной работы. 
                     </p>
-                    <p class="lead">Заключив договор , вам не придётся больше переживать о 
+                    <p class="lead lng-about_us_3">Заключив договор , вам не придётся больше переживать о 
 предстоящем ремонте, дизайне отделки, графике работ и закупке материалов.
                     </p>
-                    <p class="lead">Мы максимально сэкономим ваше время, финансы и честно ответим на все ваши вопросы. </p>
-                    <p class="lead">Бесплатную консультацию и фиксированную стоимость  работ вы можете получить, просто позвонив нам или написав  в социальных сетях.</p>
-                    <p class="lead">Достаточно будет одной встречи, для обсуждения деталей и построения плана работ.</p>
-                    <p class="lead">Вкус вашего комфортного пребывания в доме - то, к чему мы стремимся.</p>
+                    <p class="lead lng-about_us_4">Мы максимально сэкономим ваше время, финансы и честно ответим на все ваши вопросы.</p>
+                    <p class="lead lng-about_us_5">Бесплатную консультацию и фиксированную стоимость  работ вы можете получить, просто позвонив нам или написав  в социальных сетях.</p>
+                    <p class="lead lng-about_us_6">Достаточно будет одной встречи, для обсуждения деталей и построения плана работ.</p>
+                    <p class="lead lng-about_us_7">Вкус вашего комфортного пребывания в доме - то, к чему мы стремимся.</p>
                 </div>
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
@@ -50,9 +50,9 @@
                         <div class="card-body">
                             <img src="assets/images/reconstruction-services.jpg" alt="Construction">
                             <div class="hori-spacer"></div>
-                            <h5 class="card-title">Строительно–отделочные работы </h5>
+                            <h5 class="card-title lng-work_construction">Строительно–отделочные работы </h5>
                             <!-- <p class="card-text">Sample text</p> -->
-                            <a class="btn btn-warning" href="<?php echo URLROOT; ?>/prices" >Узнать больше</a>
+                            <a class="btn btn-warning lng-know_more_construction" href="<?php echo URLROOT; ?>/prices" >Узнать больше</a>
                         </div>
                     </div>    
                     </div>
@@ -61,9 +61,9 @@
                             <div class="card-body">
                                 <img src="assets/images/electrical-works.jpg" alt="Electrical">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Электромонтажные работы</h5>
+                                <h5 class="card-title lng-work_electrical">Электромонтажные работы</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <a class="btn btn-warning" href="<?php echo URLROOT; ?>/prices/electrical" >Узнать больше</a>
+                                <a class="btn btn-warning lng-know_more_electrical" href="<?php echo URLROOT; ?>/prices/electrical" >Узнать больше</a>
                             </div>
                         </div>
                     </div>
@@ -72,9 +72,9 @@
                             <div class="card-body">
                                 <img src="assets/images/plumbing-works.webp" alt="Plumbing">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Сантехнические  работы</h5>
+                                <h5 class="card-title lng-work_plumbing">Сантехнические  работы</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <a class="btn btn-warning" href="<?php echo URLROOT; ?>/prices/plumbing" >Узнать больше</a>
+                                <a class="btn btn-warning lng-know_more_plumbing" href="<?php echo URLROOT; ?>/prices/plumbing" >Узнать больше</a>
                             </div>
                         </div>
                     </div>
@@ -83,9 +83,9 @@
                             <div class="card-body">
                                 <img src="assets/images/repair-works.webp" alt="Repair">
                                 <div class="hori-spacer"></div>
-                                <h5 class="card-title">Ремонт</h5>
+                                <h5 class="card-title lng-work_repairing">Ремонт</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <button class="btn btn-secondary" disabled>Узнать больше</button>
+                                <button class="btn btn-secondary lng-know_more_repairing" disabled>Узнать больше</button>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
         <!-- Customer Reviews -->
         <section id="reviews" style="margin-bottom: 1em;">
             <div class="container">
-                <h1>Наши клиенты говорят...</h1>
+                <h1 class="lng-client_reviews">Наши клиенты говорят...</h1>
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
 
@@ -148,7 +148,7 @@
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
 
-                <h1>Свяжитесь с нами</h1>
+                <h1 class="lng-get_in_touch">Свяжитесь с нами</h1>
 
                 <div class="hori-spacer"></div>
                 <div class="hori-spacer"></div>
@@ -167,10 +167,10 @@
                             <div>
                                 <span class="bi bi-house text-yellow" style="font-style: bold; font-family: 'Varela Round', sans-serif;"></span>
                                 &nbsp;
-                                <div>Ленсоветовский 23,</div>
-                                   <div>посёлок Шушары,</div>
-                                    <div>Санкт-Петербург,</div>
-                                    <div>Россия</div>
+                                <div class="lng-address_line_1">Ленсоветовский 23,</div>
+                                   <div class="lng-address_line_2">посёлок Шушары,</div>
+                                    <div class="lng-address_line_3">Санкт-Петербург,</div>
+                                    <div class="lng-address_line_4">Россия</div>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                             loading="lazy" width="600px" height="500px"></iframe> -->
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2009.5030247582386!2d30.469655123598255!3d59.75770693822565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469627bb80153069%3A0x94031ec1603a078c!2z0JbQmiDQlNC-0LHRgNGL0L3Rjw!5e0!3m2!1sru!2sru!4v1647934704499!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             <a href="https://yandex.ru/maps/org/zhk_dobrynya/133858123731/?ll=30.471598%2C59.756596&z=17"
-                                class="text-yellow" style="text-decoration: none;" target="_blank" >Открыть в Яндекс картах</a>
+                                class="text-yellow lng-open_yandex_maps" style="text-decoration: none;" target="_blank" >Открыть в Яндекс картах</a>
                     </div>
                 </div>
                 <div class="row">
@@ -188,7 +188,7 @@
                                 <div class="card-text text-white text-center">
                                     <div class="hori-spacer"></div>
 
-                                    <div class="text-thick">Присоединяйтесь к нам</div>
+                                    <div class="text-thick lng-join_us">Присоединяйтесь к нам</div>
                                     <div class="hori-spacer"></div>
                                     <div class="hori-spacer"></div>
                                     <span style="display:flex; justify-content: center;">
