@@ -9,7 +9,7 @@
 
         public function getConstructionWorksPrice()
         {
-            $this->db->query("SELECT * FROM `prices_construction-finishing-works`");
+            $this->db->query("SELECT * FROM `prices_construction-finishing-works` ORDER BY `group_num` ASC ,`order_num`;");
 
             return $this->db->resultSet();
 

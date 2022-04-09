@@ -32,15 +32,20 @@ div.welcome-slider > button, div.reviews-slider > button {
     color: var(--yellow);
 }
 #navmenu .dropdown > a:hover {
-    background-color: var(--yellow);
-    color: var(--black);
+    border-color: var(--yellow);
+    outline: none;
+    box-shadow: none;
+}
+#navmenu .dropdown > a:active {
+    outline: none !important;
+    box-shadow: none;
 }
 #navmenu .dropdown-menu > li {
     display: flex;
 }
 #navmenu .dropdown-menu > li :hover {
     background-color: var(--yellow);
-    color: var(--black);
+    color: black;
 }
 
 h1.intro {

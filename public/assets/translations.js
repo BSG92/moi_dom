@@ -63,10 +63,6 @@ const langArr = {
         "ru" : "Свяжитесь с нами",
         "en" : "Get in touch with us"
     },
-    "call_and_write" : {
-        "ru" : "Звоните и Пишите",
-        "en" : "Call and Write to us"
-    },
     "leave_a_message" : {
         "ru" : "Или оставляйте заявку, а мы перезвоним вам",
         "en" : "Or leave a message and we will call you"
@@ -83,17 +79,9 @@ const langArr = {
         "ru" : "Почта",
         "en" : "email"
     },
-    "submit" : {
-        "ru" : "Отправить",
-        "en" : "Submit"
-    },
     "privacy_policy" : {
         "ru" : "Отправляя данные, вы соглашаетесь с условиями <div class='txt-blue' style='text-decoration-line: underline; text-decoration-color: #002366;'>Польсовательского соглашения</div>(Политики конфиденциальности)",
         "en" : "By submitting data, you agree to the terms of the <div class='txt-blue' style='text-decoration-line: underline; text-decoration-color: #002366;'>User Agreement</div>(Privacy Policy)"
-    },
-    "our_clients" : {
-        "ru" : "Наши клиенты",
-        "en" : "Our Clients"
     },
     "work_construction" : {
         "ru" : "Строительно–отделочные работы",
@@ -111,19 +99,19 @@ const langArr = {
         "ru" : "Ремонт",
         "en" : "Repair Works"
     },
-    "know_more_construction" : {
+    "know_more-construction" : {
         "ru" : "Узнать больше",
         "en" : "Know more"
     },
-    "know_more_electrical" : {
+    "know_more-electrical" : {
         "ru" : "Узнать больше",
         "en" : "Know more"
     },
-    "know_more_plumbing" : {
+    "know_more-plumbing" : {
         "ru" : "Узнать больше",
         "en" : "Know more"
     },
-    "know_more_repairing" : {
+    "know_more-repairing" : {
         "ru" : "Узнать больше",
         "en" : "Know more"
     },

@@ -52,7 +52,7 @@
                             <div class="hori-spacer"></div>
                             <h5 class="card-title lng-work_construction">Строительно–отделочные работы </h5>
                             <!-- <p class="card-text">Sample text</p> -->
-                            <a class="btn btn-warning lng-know_more_construction" href="<?php echo URLROOT; ?>/prices" >Узнать больше</a>
+                            <a class="btn btn-warning lng-know_more-construction" href="<?php echo URLROOT; ?>/prices" >Узнать больше</a>
                         </div>
                     </div>    
                     </div>
@@ -63,7 +63,7 @@
                                 <div class="hori-spacer"></div>
                                 <h5 class="card-title lng-work_electrical">Электромонтажные работы</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <a class="btn btn-warning lng-know_more_electrical" href="<?php echo URLROOT; ?>/prices/electrical" >Узнать больше</a>
+                                <a class="btn btn-warning lng-know_more-electrical" href="<?php echo URLROOT; ?>/prices/electrical" >Узнать больше</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 <div class="hori-spacer"></div>
                                 <h5 class="card-title lng-work_plumbing">Сантехнические  работы</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <a class="btn btn-warning lng-know_more_plumbing" href="<?php echo URLROOT; ?>/prices/plumbing" >Узнать больше</a>
+                                <a class="btn btn-warning lng-know_more-plumbing" href="<?php echo URLROOT; ?>/prices/plumbing" >Узнать больше</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                 <div class="hori-spacer"></div>
                                 <h5 class="card-title lng-work_repairing">Ремонт</h5>
                                 <!-- <p class="card-text">Sample text</p> -->
-                                <button class="btn btn-secondary lng-know_more_repairing" disabled>Узнать больше</button>
+                                <button class="btn btn-secondary lng-know_more-repairing" disabled>Узнать больше</button>
                             </div>
                         </div>
                     </div>

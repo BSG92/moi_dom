@@ -29,9 +29,9 @@ function changeLanguage() {
     // Add .active class to the language selector drop down
     // Since hash value is also equal to the id of the en and ru dropdown elements
     if(hash == "ru") {
-        ru.classList.add("active");
+        ru.classList.add("bg-yellow");
     }else if(hash == "en") {
-        en.classList.add("active");
+        en.classList.add("bg-yellow");
     }
 
     // langArr is loaded in the index.php page. It is included there, so can be accessed from here

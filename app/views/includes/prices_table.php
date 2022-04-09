@@ -1,5 +1,5 @@
 <section class="table">
-    <div class="display-6 text-center pb-3"><?php echo $data['heading']; ?></div>
+    <div id="heading" class="display-6 text-center pb-3"><?php echo $data['heading']; ?></div>
 
     <table>
         <thead>
@@ -13,7 +13,7 @@
             <?php
                 foreach ($data['prices'] as $work) {
                     echo '<tr> <td>' . $work->name_work . '</td> 
-                        <td class="price">' . $work->price . '</td>
+                        <td class="price">' . $work->price . ' ₽</td>
                         <td class="quantity">' . $work->measured_by . '</td>
                     </tr>';
                 }
@@ -98,10 +98,22 @@
     table > tbody > tr td.price,
     table > tbody > tr td.quantity {
         text-align: right;
+        white-space: nowrap;
     }
 
-    table > tbody > tr td.price::after {
-        content : " ₽";
+    @media (max-width:769px) {
+        table {
+            font-size: large;
+        }
+    }
+    @media (max-width:550px) {
+        #heading {
+            font-size: large;
+        }
+
+        table {
+            font-size: medium;
+        }
     }
 
 </style>
