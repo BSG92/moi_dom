@@ -1,5 +1,9 @@
 @import url("colors.css");
 
+span.navbar-brand {
+    cursor: default;
+}
+
 div.welcome-slider > button, div.reviews-slider > button {
     visibility: hidden;
 }
@@ -17,15 +21,16 @@ div.welcome-slider > button, div.reviews-slider > button {
 
 #navmenu > ul > li > a {
     font-size: large;
-    transition-property: font-size;
+    transition-property: all;
     transition-duration: 0.5s;
 }
 
 #navmenu > ul > li > a:hover{
     color: var(--yellow);
-    font-size: 1.5em;
-    transition-property: font-size;
-    transition-duration: 0.5s;
+    /* font-size: 1.5em; */
+    transform: scaleX(1.4) scaleY(1.4);
+    /* transition-property: font-size; */
+    /* transition-duration: 0.5s; */
 }
 
 #navmenu .dropdown > a {
