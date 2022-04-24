@@ -94,6 +94,15 @@
         padding: 0.5rem 2rem;  
         border-style: hidden;      
     }
+    
+    table tbody tr {
+        transition: all 0.4s ease-in-out;
+    }
+
+    table tbody tr:hover {
+        background-color: #767b91;
+        font-weight: bold;
+    }
 
     table > tbody > tr td.price,
     table > tbody > tr td.quantity {
